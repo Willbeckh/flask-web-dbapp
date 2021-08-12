@@ -1,0 +1,28 @@
+body {
+  padding: 4px;
+  background-color: aqua;
+  margin: 8px;
+}
+
+/* nav */
+ul {
+  float: right;
+}
+
+ul> li {
+  display: inline;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.form {
+
+  text-align: center;
+}

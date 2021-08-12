@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}{% endblock %}
+
+{% block body %}
+  <div class="form">
+    <form action="{{ url_for('details') }}" method="POST">
+      <label for="name">Name:</label> <br>
+      <input type="text" name="username" id=""> <br>
+      
+      <label for="comment">Comment:</label> <br>
+      <input type="text" name="comment" id=""> <br>
+  
+      <input type="submit" name="" value="Submit">
+    </form>
+  </div>
+{% endblock %}

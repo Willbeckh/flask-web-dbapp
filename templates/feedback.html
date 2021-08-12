@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+  <table class="table">
+    <thead>
+      <th scope='col'>ID: #</th>
+      <th scope='col'>Name</th>
+      <th scope='col'>Comment</th>
+    </thead>
+    {% for post in data %}
+      <tr>
+        <th scope="row"> {{ post[0] }}</th>
+        <td>{{ post[1] }}</td>
+        <td>{{ post[2] }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+  <div class="card">
+    
+  </div>
+{% endblock %}
